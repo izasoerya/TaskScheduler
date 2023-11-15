@@ -1,42 +1,25 @@
 {
     "configurations": [
         {
-            "name": "PlatformIO",
+            "name": "Arduino",
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}",
                     "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "defines": [
-                "__PLATFORMIO_BUILD_DEBUG__",
-                "USBCON",
+                "ARDUINO=10809",  // Adjust this based on your Arduino version
                 "ARDUINO_ARCH_AVR",
-                "F_CPU=16000000L",
-                "ARDUINO=10809",
-                "PLATFORMIO=50102",
-                "ARDUINO_AVR_UNO"
+                "USBCON"
             ],
-            "compilerPath": "C:/Users/ihzas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++11",
             "intelliSenseMode": "gcc-x86"
         }
     ],

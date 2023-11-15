@@ -6,9 +6,9 @@ typedef void (*TaskFunction)();  // Define a typedef for the function pointer ty
 
 class TaskScheduler {
 private:
-    String taskName;
-    uint16_t taskDelay;
-    uint8_t taskId;
+    String name;
+    uint16_t delay;
+    uint8_t idTask;
     uint32_t prevMillis = 0;
     bool isSuspended = false;
     TaskFunction taskFunc;
