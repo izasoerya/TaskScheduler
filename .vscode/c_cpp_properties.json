@@ -5,13 +5,15 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs"
+                "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "C:/Users/ihzas/.platformio/packages/toolchain-atmelavr/avr/include"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}",
                     "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs"
+                    "C:/Users/ihzas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "C:/Users/ihzas/.platformio/packages/toolchain-atmelavr/avr/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
@@ -19,8 +21,8 @@
                 "ARDUINO=10809",  // Adjust this based on your Arduino version
                 "ARDUINO_ARCH_AVR",
                 "USBCON"
-            ],
-            "intelliSenseMode": "gcc-x86"
+            ]
+            // "intelliSenseMode": "gcc-x86"
         }
     ],
     "version": 4

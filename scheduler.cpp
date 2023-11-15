@@ -26,3 +26,8 @@ void TaskScheduler::resumeTask()
 {
     isSuspended = false;
 }
+
+void TaskScheduler::suspendAllTask()
+{
+    isSuspended = true;
+}
