@@ -14,7 +14,8 @@ private:
     TaskFunction taskFunc;
 
 public:
-    TaskScheduler(uint8_t userId, String userName, uint16_t userDelay, TaskFunction userTask);
+    TaskScheduler(uint8_t idTask, String name, uint16_t delay, TaskFunction taskFunc);
+    ~TaskScheduler();
     void runTask();
     void suspendTask();
     void resumeTask();

@@ -1,12 +1,14 @@
 #include "scheduler.h"
 
-TaskScheduler::TaskScheduler(uint8_t userId, String userName, uint16_t userDelay, TaskFunction userTask)
+TaskScheduler::TaskScheduler(uint8_t idTask, String name, uint16_t delay, TaskFunction taskFunc)
 {
     this -> idTask = idTask;
     this -> name = name;
     this -> delay = delay;
     this -> taskFunc = taskFunc;
 }
+
+TaskScheduler::~TaskScheduler(){}
 
 void TaskScheduler::runTask()
 {
