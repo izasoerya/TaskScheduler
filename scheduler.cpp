@@ -1,6 +1,6 @@
 #include "scheduler.h"
 
-TaskScheduler::TaskScheduler(uint8_t idTask, String name, uint16_t delay, TaskFunction taskFunc)
+TaskScheduler::TaskScheduler(uint8_t idTask, String name, uint16_t delay, void (*taskFunc)())
 {
     this -> idTask = idTask;
     this -> name = name;
