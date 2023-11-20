@@ -9,7 +9,7 @@ void doTask2() {
 }
 
 TaskScheduler task1(1, "TASK1", 1000, doTask1);
-TaskScheduler task2(1, "TASK2", 1000, doTask2);
+TaskScheduler task2(2, "TASK2", 1000, doTask2);
 
 void main() {
     Serial.begin(115200);

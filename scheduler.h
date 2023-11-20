@@ -10,8 +10,8 @@ private:
     uint16_t delay;
     uint8_t idTask;
     uint32_t prevMillis = 0;
-    bool isSuspended = false;
     TaskFunction taskFunc;
+    bool isSuspended = false;
 
 public:
     TaskScheduler(uint8_t idTask, String name, uint16_t delay, TaskFunction taskFunc);
